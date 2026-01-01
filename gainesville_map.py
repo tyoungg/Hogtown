@@ -21,4 +21,3 @@ m.add_marker(location=(29.7069, -82.3950), name="Millerhopper Overlay", popup=HT
 m.to_html("gainesville_map.html")
 
 print("Map created and saved to gainesville_map.html")
-
