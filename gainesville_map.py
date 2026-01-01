@@ -15,10 +15,9 @@ m.image_overlay(image_url, bounds, name="Gainesville Overlay")
 m.add_marker(location=(29.7069, -82.3950), name="Millerhopper Overlay", popup=HTML("Devil's Millhopper Park"))
 
 # Add opacity control
-m.add_opacity_control()
+# m.add_opacity_control()
 
 # Save the map to an HTML file
 m.to_html("gainesville_map.html")
 
 print("Map created and saved to gainesville_map.html")
-
