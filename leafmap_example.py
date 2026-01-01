@@ -26,3 +26,16 @@ m.add_opacity_control()
 m.to_html("leafmap_example.html")
 
 print("Map saved to leafmap_example.html")
+
+
+
+# Add a marker for Devil's Millhopper Park
+# m.add_marker(location=[29.70694, -82.39500], popup=HTML("Devil's Millhopper Park"))
+
+# Add opacity control
+m.add_opacity_control()
+
+# Save the map to an HTML file
+m.to_html("leafmap_example.html")
+
+print("Map saved to leafmap_example.html")
